@@ -32,15 +32,45 @@ nav{
 	margin: 20px 0;
 }
 
+footer{
+	width: 100%;
+	bottom: 0px;
+	position: fixed;
+}
+
+.left-foot{
+	list-style: none;
+	float: left;
+	margin-left: 30px;
+}
+
+.left-foot ul li{
+	padding-left: 27px;
+}
+
+.right-foot ul li{
+	padding-right: 27px;
+}
+
+.right-foot{
+	list-style: none;
+	float: right;
+	margin-right: 30px;
+}
+
+footer ul li{
+		display: inline-block;
+}
+
 nav ul{
 	list-style: none;
 	text-align: right;
-
+	margin-right: 30px;
 }
 
 nav ul li{
 		display: inline-block;
-		vertical-align: middle;
+		height: 30px;
 }
 
 .images{
@@ -57,7 +87,33 @@ nav ul li{
 	text-indent: 100%; 
 	white-space: nowrap;
 	opacity: .55;
-	margin-top: -15px;
+	margin-top: -15px;	
+}
 
-	
+.notify{
+	background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+	background-color: rgba(0,0,0,.55);
+	border-radius: 50%;
+	background-position: -194px -21px;
+	display: block;
+	overflow: hidden;
+	text-indent: 100%; 
+	height: 20px;
+	width: 20px;
+	margin-left: 15px;	
+}
+
+.profile{
+	background-image: url("photo.jpg");
+	overflow: hidden;
+	text-indent: 100%;
+	display: block;
+	border-radius: 50%;
+	height: 32px;
+	width: 32px;	
+	margin-left: 15px;		
+}
+
+.nav-con{
+	vertical-align: middle;
 }
